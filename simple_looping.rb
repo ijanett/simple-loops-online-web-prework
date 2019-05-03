@@ -1,21 +1,21 @@
 def loop_iterator(number_of_times)
-  times = 0
+  number_of_times = 0
   loop do
     puts "Welcome to Flatiron School's Web Development Course!"
-    times += 1
-    break if times == number_of_times
+    number_of_times += 1
+    break if number_of_times <= 7
   end
 end
 
 def times_iterator(number_of_times)
-  number_of_times.times do
+  7.times do
     puts "Welcome to Flatiron School's Web Development Course!"
   end
 end
 
 def while_iterator(number_of_times)
-  times = 0
-  while times < number_of_times do
+  number_of_times = 0
+  while number_of_times < 7 do
     puts "Welcome to Flatiron School's Web Development Course!"
   number_of_times += 1
   end
